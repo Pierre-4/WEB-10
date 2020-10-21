@@ -1,0 +1,60 @@
+*{margin: 0; padding: 0}
+body {
+    color: black;
+    font-size: 30px;
+    font-family: "Agency FB";
+    background: black;
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.header{
+    height: 120px;
+    background: yellow;
+    margin-bottom: 20px;
+}
+.space{
+    height: 60px;
+    background: white;
+    color: white;
+    margin-left: 1%;
+    width: 30%;
+}
+.side1{
+    width: 24%;
+    background: blue;
+    min-height: 500px;
+    float: left;
+    margin-right: 1%;
+}
+.side2{
+    min-height: 500px;
+    float: left;
+    width: 24%;
+    background: red;
+    margin-right: 1%;
+}
+.side3{
+    min-height: 500px;
+    float: left;
+    width: 24%;
+    background: white;
+}
+.side4{
+    min-height: 500px;
+    float: left;
+    width: 24%;
+    background: red;
+    margin-right: 1%;
+}
+.footer{
+    height: 150px;
+    background: yellow;
+    margin-top: 20px;
+}
+.wrapper{
+    width: 100%;
+}
