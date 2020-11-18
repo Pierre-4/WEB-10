@@ -1,0 +1,50 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.tabs{
+    width: 30%;
+    min-height: 300px;
+    float: left;
+    margin-right: 10%;
+
+}
+.accordeon{
+    width: 30%;
+    min-height: 300px;
+    float: left;
+    margin-right: 10%;
+
+}
+.date{
+    width: 15%;
+    float: left;
+}
+
+.social a {
+    text-align: center;
+    width: 37px;
+    height: 37px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.youtube a:hover {background: #c4302b; color: #fff;}
+.google-pluse a:hover {background: #DD4B39; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+
+.gallery{
+    width: 600px;
+    height: 350px;
+    margin-bottom: 3%;
+}
