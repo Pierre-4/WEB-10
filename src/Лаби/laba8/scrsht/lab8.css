@@ -1,0 +1,42 @@
+*{margin: 0; padding: 0}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.header{
+    height: 120px;
+    background: bisque;
+    margin-bottom: 20px;
+}
+.space{
+    height: 60px;
+    background: white;
+    margin-left: 1%;
+    width: 30%;
+    float: bottom;
+}
+.side1 {
+    min-height: 600px;
+    float: left;
+    width: 45%;
+    background: bisque;
+    margin-right: 1%;
+    margin-left: 3%;
+}
+.side2 {
+    min-height: 600px;
+    float: left;
+    width: 45%;
+    background: bisque;
+    margin-right: 3%;
+    margin-left: 1%;
+}
+.footer{
+    height: 100px;
+    background: bisque;
+    margin-top: 20px;
+}
+.wrapper{
+    width: 100%;
+}
